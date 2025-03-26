@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root {
+    --blue: #00b1e7;
+    --white: #fff;
+    --light-white: #aaa;
+    --black: #3d3d3d;
+    --light-bg: #4b4b4b;
+    --transparent:#979797; 
+    --orange:#ffd620;
+    --red:#f37d7d;
+
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+*::selection {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+html {
+    font-size: 60.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+
+
+
+
+body {
+    background-color:#f5a227;;
+ background-size: cover;  
+  background-repeat: no-repeat;
+  
+    /*background-size: contain;*/
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+
+
+.heading {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.heading span {
+
+    
+    text-transform: uppercase;
+}
+
+
+
+.header {
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+
+.header .flex {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .flex .logo {
+    font-size: 2.5rem;
+    font-size: var(--white)
+}
+
+
+.header .flex .navbar a {
+    margin-left: 2rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.header .flex .navbar a:hover {
+    color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+.btn  {
+    background-color: #ebf37d;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+ 
+    width: 200px; /* Setează o lățime fixă */
+    max-width: 30%; /* Opțional, pentru responsivitate */
+    font-style: normal;
+    font-size:medium ;
+    text-align: center;
+    margin: 5px 300px;
+    margin-top: 30px;
+    align-items: normal;
+  
+}
+.btn:hover {
+    background-color: var(--white);
+    color: var(--red);
+    transform: scale(1.05); 
+}
+
+.btn2 {
+    background-color: #ebf37d;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+
+    width: 200px; /* Setează o lățime fixă */
+    max-width: 30%; /* Opțional, pentru responsivitate */
+    font-style: normal;
+    font-size:medium ;
+    text-align: center;
+    margin: 5px 520px;
+    margin-top: -44px;
+    align-items: normal;
+    
+}
+
+
+
+
+.btn2:hover {
+    background-color: var(--white);
+    color: var(--red);
+    transform: scale(1.05); 
+}
+
+
+.icon-container {
+    display: flex; /* Așează elementele într-un rând */
+    justify-content: center; /* Centrează iconițele orizontal */
+   ; /* Centrează vertical */
+    margin-left: -39%;
+    gap: 10px; /* Spațiu între iconițe */
+    padding: 10px;
+   
+}
+
+.icon-container img {
+    width: 40px; /* Ajustează dimensiunea iconițelor */
+    height: auto;
+   
+}
+.icon-container:hover{
+    transform: scale(1.05); 
+}
+
+
+.acasă {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+   width: 100%;
+    height: 120vh;
+    background-size: 120%;
+    background-image: url(jpgimage.jpg);
+    background-repeat:no-repeat;
+    margin-top: -288px;
+    max-width:1700px;
+
+    border-radius: 5px;
+
+  }
+
+ 
+  
+  
+ 
+  
+  .acasă > h1{
+    font-size: 7rem;
+    font-weight: 2000;
+    font-style: normal;
+    color: var(--white);
+    margin-left: 12%;
+    margin-top: 390px;
+  } 
+
+  .acasă > p {
+    font-size: 7rem;
+    font-weight: 2000;
+    font-style:normal;
+    color: var(--orange);
+    border-radius: 5px;
+    margin-left: 19.5%;
+    margin-top: 20px;
+}
+  
+  
+  .despre {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 120vh;
+    background-size: 120%;
+    max-width: 91.5%;
+    background-repeat:no-repeat;
+    border-radius: 5px;
+    max-width:1700px;
+   
+   
+  }
+
+  .despre:hover{
+    transform: translateY(8px);
+  }
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

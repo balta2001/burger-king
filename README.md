@@ -1,1 +1,1 @@
-# burger-king
+# burger-store
